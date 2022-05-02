@@ -7,8 +7,10 @@
     "url": "https://github.com/TiagoCavalcante/solidts-parcel"
   },
   "scripts": {
+    "prepare": "husky install",
+
     "build": "parcel build src/index.html",
-    "prepare": "husky install"
+    "start": "parcel src/index.html --open"
   },
   "keywords": [
     "solidjs",
@@ -21,8 +23,8 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^7.0.4",
-    "lint-staged": "^12.3.7",
-    "prettier": "^2.6.1"
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2"
   },
   "lint-staged": {
     "*.{ts,tsx,md}": "prettier --write --no-semi"
