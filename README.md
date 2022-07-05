@@ -1,6 +1,6 @@
 # solidts-parcel
 
-A template for seamlessly creating a ReactJS library with TypeScript
+A template for seamlessly creating a SolidJS library with TypeScript
 
 ## Using this template
 
